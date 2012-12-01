@@ -508,7 +508,7 @@ service qcom-post-boot /system/bin/sh /system/etc/init.qcom.post_boot.sh
     disabled
     oneshot
 
-service qcom-wifi /system/bin/sh /system/etc/init.qcom.wifi.sh
+service qcom-wifi /system/bin/sh /init.qcom.wifi.sh
 #ASUS_BSP +++ Josh_Liao "data encryption"
     class core
 #ASUS_BSP --- Josh_Liao "data encryption"

@@ -164,8 +164,6 @@ on emmc-fs
     symlink /lib/modules/texfat.ko /system/lib/modules/texfat.ko
     symlink /lib/modules/tntfs.ko /system/lib/modules/tntfs.ko
     symlink /lib/modules/wlan.ko /system/lib/modules/wlan.ko
-    symlink /lib/modules/wlan.ko /system/lib/modules/prima/prima_wlan.ko
-    symlink /lib/modules/cfg80211.ko /system/lib/modules/prima/cfg80211.ko
 
 #    exec /system/bin/ssn
     wait /dev/block/platform/msm_sdcc.1/by-name/userdata
