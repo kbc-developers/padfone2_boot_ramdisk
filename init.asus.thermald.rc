@@ -1,0 +1,5 @@
+# ASUS_BSP+++ VictorFu "For Ultimate mode"
+on property:sys.ultimate.mode.enabled=*
+	stop thermald
+        start thermald
+# ASUS_BSP--- VictorFu "For Ultimate mode"
