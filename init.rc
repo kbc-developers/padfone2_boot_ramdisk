@@ -375,6 +375,9 @@ on boot
 # Set this property so surfaceflinger is not started by system_init
     setprop system_init.startsurfaceflinger 0
 
+# libemoji_docomo support
+    setprop ro.config.libemoji "libemoji_docomo.so"
+
     class_start core
 # ASUS_BSP +++ Josh_Liao "encrypt phone"
     start qcom-wifi
